@@ -8,7 +8,7 @@ package com.kj.datacenter.msg;
  */
 public class BaseMessage {
     /** 消息ID */
-    private int magId;
+    private int msgId;
     /** 设备ID */
     private String deviceId;
     /** 说明 */
@@ -16,12 +16,16 @@ public class BaseMessage {
     /** 通用表示 */
     private boolean flag;
 
-    public int getMagId() {
-	return magId;
+    public int getMsgId() {
+	return msgId;
     }
 
-    public void setMagId(int magId) {
-	this.magId = magId;
+    public void setMsgId(int msgId) {
+	this.msgId = msgId;
+    }
+
+    public String getDesc() {
+	return desc;
     }
 
     public String getDeviceId() {

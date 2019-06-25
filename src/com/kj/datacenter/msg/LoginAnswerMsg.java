@@ -6,7 +6,7 @@ public class LoginAnswerMsg extends BaseMessage {
 
     public LoginAnswerMsg(boolean result) {
 	this.setFlag(result);
-	this.setMagId(Constant.LOGIN_ANSWER);
+	this.setMsgId(Constant.LOGIN_ANSWER);
     }
 
     public LoginAnswerMsg() {

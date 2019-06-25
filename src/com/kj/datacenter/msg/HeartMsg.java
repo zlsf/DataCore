@@ -6,6 +6,6 @@ public class HeartMsg extends BaseMessage {
 
     public HeartMsg() {
 	this.setDesc("心跳");
-	this.setMagId(Constant.HRAET_BIT);
+	this.setMsgId(Constant.HRAET_BIT);
     }
 }

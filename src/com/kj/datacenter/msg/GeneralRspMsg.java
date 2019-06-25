@@ -7,7 +7,7 @@ public class GeneralRspMsg extends BaseMessage {
     public GeneralRspMsg() {
 	this.setDesc("通用应答");
 	this.setFlag(true);
-	this.setMagId(Constant.GeneralRspMsg);
+	this.setMsgId(Constant.GeneralRspMsg);
     }
     
  
