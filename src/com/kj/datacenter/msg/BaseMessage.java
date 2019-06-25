@@ -11,8 +11,6 @@ public class BaseMessage {
     private int magId;
     /** 设备ID */
     private String deviceId;
-    /** 数据内容 */
-    private String data;
     /** 说明 */
     private String desc;
     /** 通用表示 */
@@ -32,18 +30,6 @@ public class BaseMessage {
 
     public void setDeviceId(String deviceId) {
 	this.deviceId = deviceId;
-    }
-
-    public String getData() {
-	return data;
-    }
-
-    public void setData(String data) {
-	this.data = data;
-    }
-
-    public String getDesc() {
-	return desc;
     }
 
     public void setDesc(String desc) {
